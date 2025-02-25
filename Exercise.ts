@@ -55,12 +55,12 @@ let descending = [...scores].sort((a, b) => b - a);
 console.log("Ascending order:", ascending);  
 console.log("Descending order:", descending); 
 
-//6
+//Exercise6
 let student: [string, number, boolean] = ["John", 21, true];
 student[1] = 22;
 console.log(student);  
 
-//7
+//Exercise7
 let roles: string[] = ["User", "Editor", "Admin", "Moderator"];
 let hasAdmin = roles.includes("Admin");
 let hasSuper = roles.some(role => role.startsWith("Super"));
